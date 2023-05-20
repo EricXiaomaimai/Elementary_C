@@ -6,7 +6,6 @@
 int main(void)
 {
     char c = 'A';
-    int ascii_n = 65;
 
     while (c >= ASCII_A && c <= ASCII_Z)
     {
