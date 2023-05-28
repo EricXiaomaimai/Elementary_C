@@ -1,5 +1,4 @@
 # include <stdio.h>
-# include <limits.h>
 
 long long fact(int);
 
@@ -14,7 +13,6 @@ int main(void)
     f = fact(n);
 
     printf("%d! = %lld\n", n, f);
-    printf("%lld", __LONG_LONG_MAX__);
 
     return 0;
 }
